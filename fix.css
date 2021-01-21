@@ -3,6 +3,10 @@ body {
     filter: invert(0.8);
 }
 
+main {
+    background-color: white !important;
+}
+
 img {
     filter: invert(1) !important;
 }
@@ -11,6 +15,8 @@ img {
     filter: invert(1) !important;
 }
 /* only for swagger ui */
-#operations-tag-basic-error-controller,#operations-tag-operation-handler,#operations-tag-web-mvc-links-handler {
+#operations-tag-basic-error-controller,
+#operations-tag-operation-handler,
+#operations-tag-web-mvc-links-handler {
     display: none;
 }

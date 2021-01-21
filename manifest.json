@@ -6,6 +6,9 @@
   "content_scripts": [
     {
       "matches": [
+        "https://*.gcp.hkmpcl.com.hk/swagger-ui.html/*",
+        "https://*.atlassian.com/*",
+        "http://*.atlassian.com/*",
         "https://stackoverflow.com/*",
         "https://www.google.com/search*",
         "https://github.com/*"
