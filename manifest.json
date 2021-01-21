@@ -1,0 +1,25 @@
+{
+  "name": "dark mode",
+  "version": "1.0",
+  "description": "dark mode for some website",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://stackoverflow.com/*",
+        "https://www.google.com/search*",
+        "https://github.com/*"
+      ],
+      "exclude_matches": [
+        "https://www.google.com/maps/*"
+      ],
+      "css": [
+        "fix.css"
+      ]
+    }
+  ],
+  "permissions": [],
+  "icons": {
+    "128": "1664849-200.png"
+  }
+}
