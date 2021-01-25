@@ -1,6 +1,7 @@
 body {
     background-color: black !important;
     filter: invert(0.8);
+    font-weight: 700 !important;
 }
 
 main {
